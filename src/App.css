@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    /* background-color: #eaf6f6; */
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    padding: 0px 15px 118px;
+}
+
+.tech-img {
+    width: 100px;
+}
+
+@media (min-width: 767px) {
+    .box {
+        padding: 20px 43px 118px;
+    }
+}
