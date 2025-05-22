@@ -13,7 +13,7 @@ const ProjectData = [
     description:
       'Created a responsive web app that ranks countries by metrics like population and area, featuring sortable tables, detailed country pages, and filters including region, UN membership, and independence status.',
     previewURL: 'https://country-page-master-seven.vercel.app/',
-    githubURL: 'https://github.com/alexpeteronoja/simple-coffee-listing-master',
+    githubURL: 'https://github.com/alexpeteronoja/country-page-master',
   },
   {
     title: 'Simple Cofee Listin',
