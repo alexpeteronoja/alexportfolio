@@ -41,13 +41,13 @@ function About() {
               <div className="flex justify-center mt-4 space-x-3.5">
                 <button
                   type="button"
-                  className="bg-purple-500 hover:bg-purple-600 text-black cursor-pointer py-2 px-4 rounded-xl"
+                  className="duration-300 ease-in hover:scale-110 bg-purple-500 hover:bg-purple-600 text-black cursor-pointer py-2 px-4 rounded-xl"
                 >
                   <a href="/contact">Contact Me</a>
                 </button>
                 <button
                   type="button"
-                  className="bg-purple-500 hover:bg-purple-600 text-black cursor-pointer py-2 px-4 rounded-xl"
+                  className="duration-300 ease-in hover:scale-110 bg-purple-500 hover:bg-purple-600 text-black cursor-pointer py-2 px-4 rounded-xl"
                 >
                   <a href="Web dev CV.pdf" rel="_blank">
                     Download CV

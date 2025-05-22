@@ -9,7 +9,7 @@ function Contact() {
         <div className="box">
           <Navbar />
 
-          <h1 className="mt-5 mb-5 text-3xl md:text-5xl font-bold text-purple-500  tracking-tight">
+          <h1 className="mt-5 mb-5 text-3xl md:text-5xl font-bold text-purple-500  tracking-tight ">
             Contact
           </h1>
 
@@ -17,12 +17,11 @@ function Contact() {
             <p>You can contact me by clicking on any of the buttons</p>
           </div>
 
-          <a href="tel:+2348162513936"></a>
           <div className="flex flex-wrap justify-center gap-10">
             {ContactData.map((item, index) => (
               <div key={index}>
                 <a href={item.link}>
-                  <div className="flex justify-between w-[300px] bg-emerald-500 hover:bg-emerald-600 text-black cursor-pointer py-3 px-4 rounded-xl">
+                  <div className="flex justify-between w-[300px] bg-emerald-500 hover:bg-emerald-600 text-black cursor-pointer py-3 px-4 rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
                     <div className="flex gap-x-2">
                       <img className="w-[30px]" src={item.img} alt="" />
                       {item.name}
