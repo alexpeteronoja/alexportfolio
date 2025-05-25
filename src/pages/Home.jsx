@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/NavBar';
 import Project from '../components/Project';
 import TechStack from '../data/TechStack';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Home() {
   const [animationX, setAnimationX] = useState('translate-x-full opacity-0 ');
@@ -47,7 +47,7 @@ function Home() {
                       type="button"
                       className="duration-300 ease-in bg-purple-500 hover:scale-110 hover:bg-purple-600 text-black cursor-pointer py-2 px-4 rounded-xl"
                     >
-                      <a href="/contact">Contact Me</a>
+                      <Link to="/contact">Contact Me</Link>
                     </button>
                     <button
                       type="button"

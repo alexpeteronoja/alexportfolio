@@ -15,7 +15,7 @@ function Project() {
           {ProjectData.map((item, index) => (
             <div
               key={index}
-              className="w-[375px] lg:w-[300px] shadow-xl shadow-slate-700 pb-7 rounded-2xl bg-gray-900 flex flex-col h-full"
+              className="w-[23.438rem] lg:w-[300px] shadow-xl shadow-slate-700 pb-7 rounded-2xl bg-gray-900 flex flex-col h-full"
             >
               <div>
                 <img

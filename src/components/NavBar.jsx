@@ -10,7 +10,7 @@ function Navbar() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="text-xl font-bold">
-              <a href="/">AlexPort</a>
+              <Link to="/">AlexPort</Link>
             </div>
 
             {/* Hamburger Button (Mobile) */}
