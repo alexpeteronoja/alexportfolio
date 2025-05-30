@@ -26,7 +26,7 @@ function Home() {
 
   return (
     <>
-      <div className="bg-gray-900 text-white">
+      <div className="bg-gray-900 text-white overflow-x-hidden">
         <div className="box">
           <Navbar />
           <div id="profile-details" className="mt-5 mb-10 mx-3 md:mx-0 ">
