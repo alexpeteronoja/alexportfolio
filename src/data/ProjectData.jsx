@@ -7,6 +7,16 @@ const ProjectData = [
     previewURL: 'https://translate-app-master.vercel.app/',
     githubURL: 'https://github.com/alexpeteronoja/translate-app-master',
   },
+
+  {
+    title: 'Simple Restaurant Site',
+    img: 'images/Foodieland Image.png',
+    description:
+      'A responsive restaurant website built with React and translated from a Figma design, showcasing precise UI implementation, design consistency, and responsiveness.',
+    previewURL: 'https://foodielandproject-lake.vercel.app/',
+    githubURL: 'https://github.com/alexpeteronoja/foodielandproject',
+  },
+
   {
     title: 'Country Page App',
     img: 'images/Country Rank App.jpg',
@@ -15,14 +25,15 @@ const ProjectData = [
     previewURL: 'https://country-page-master-seven.vercel.app/',
     githubURL: 'https://github.com/alexpeteronoja/country-page-master',
   },
-  {
-    title: 'Simple Cofee Listin',
-    img: 'images/simple cofee listing.jpg',
-    description:
-      'A responsive web application that fetches and displays a list of coffee types from a public API, demonstrating API integration, asynchronous JavaScript, and clean UI design.',
-    previewURL: 'https://simple-coffee-listing-master.vercel.app/',
-    githubURL: 'https://github.com/alexpeteronoja/simple-coffee-listing-master',
-  },
+
+  // {
+  //   title: 'Simple Cofee Listin',
+  //   img: 'images/simple cofee listing.jpg',
+  //   description:
+  //     'A responsive web application that fetches and displays a list of coffee types from a public API, demonstrating API integration, asynchronous JavaScript, and clean UI design.',
+  //   previewURL: 'https://simple-coffee-listing-master.vercel.app/',
+  //   githubURL: 'https://github.com/alexpeteronoja/simple-coffee-listing-master',
+  // },
 ];
 
 export default ProjectData;
