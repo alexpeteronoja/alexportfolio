@@ -39,7 +39,7 @@ function Home() {
                   <span className="text-purple-400">Alex Peter Onoja</span>
                 </div>
                 <div className="mb-5 ">
-                  A Frontend Developer who crafts clean, responsive, and
+                  A Web Developer who crafts clean, responsive, and
                   user-friendly websites. I design and build engaging digital
                   experiences for the web.
                   <div className="flex justify-center md:justify-start mt-4 space-x-3.5">

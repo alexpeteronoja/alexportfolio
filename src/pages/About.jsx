@@ -24,7 +24,7 @@ function About() {
 
             <div>
               <h2 className="text-2xl md:text-4xl font-bold text-purple-500  tracking-tight text-center">
-                Frontend Web Developer
+                Web Developer
               </h2>
 
               <div className="text-center my-5">
