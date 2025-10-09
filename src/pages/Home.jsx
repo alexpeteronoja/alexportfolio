@@ -3,13 +3,15 @@ import Footer from '../components/Footer';
 import Navbar from '../components/NavBar';
 import Project from '../components/Project';
 import TechStack from '../data/TechStack';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 function Home() {
   const [animationX, setAnimationX] = useState('translate-x-full opacity-0 ');
   const [animationY, setAnimationY] = useState('translate-y-full opacity-0 ');
 
   const location = useLocation();
+  const navigate = useNavigate();
+
   useEffect(() => {
     if (location.state?.scrollTo) {
       const element = document.getElementById(location.state.scrollTo);
@@ -17,6 +19,9 @@ function Home() {
         element.scrollIntoView({ behavior: 'smooth' });
       }
     }
+
+    // ✅ Reset location state after scrolling
+    navigate(location.pathname, { replace: true });
   }, [location.state]);
 
   useEffect(() => {

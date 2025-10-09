@@ -1,5 +1,13 @@
 const ProjectData = [
   {
+    title: 'Shopping Store with Cart Functionalities',
+    img: '/images/ecommerce-store.png',
+    description:
+      'Developed a scalable, responsive React-based e-commerce store with dynamic API integration, efficient state management, and seamless cart functionalities including add, remove, and quantity updates.',
+    previewURL: 'https://shopping-site-green-eight.vercel.app',
+    githubURL: 'https://github.com/alexpeteronoja/shopping-site',
+  },
+  {
     title: 'Language Translator Web App',
     img: 'images/TranslatePic.jpg',
     description:
