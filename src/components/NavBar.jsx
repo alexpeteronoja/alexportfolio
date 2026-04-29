@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { FaXmark } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -58,7 +59,24 @@ function Navbar() {
         </div>
 
         {/* Mobile Menu */}
+
         {isOpen && (
+          <div
+            onClick={() => setIsOpen(false)}
+            className="fixed inset-0 z-10 bg-black opacity-50"
+          ></div>
+        )}
+        <div
+          className={`md:hidden fixed z-30 top-0 left-0 h-full bg-gray-900 text-white w-64  px-4 pb-4 space-y-2 transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
+        >
+          <div className="flex justify-end px-5 pt-6 pb-1">
+            <button
+              onClick={() => setIsOpen(false)}
+              className="flex justify-end mb-2 cursor-pointer "
+            >
+              <FaXmark />
+            </button>
+          </div>
           <div className="md:hidden px-4 pb-4 space-y-2">
             <Link to="/" className="block  hover:text-blue-500">
               Home
@@ -77,7 +95,7 @@ function Navbar() {
               Contact
             </Link>
           </div>
-        )}
+        </div>
       </nav>
     </>
   );

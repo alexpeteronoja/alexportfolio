@@ -15,9 +15,25 @@ const TechStack = [
     alt: 'Javascript Logo',
   },
   {
+    name: 'Typescript',
+    img: '/images/Logo/typeScript.svg',
+    alt: 'Typescript Logo',
+  },
+  {
     name: 'React',
     img: 'images/Logo/logos_react.svg',
     alt: 'React Logo',
+  },
+
+  {
+    name: 'Node.js',
+    img: '/images/Logo/node.js.svg',
+    alt: 'Node.js Logo',
+  },
+  {
+    name: 'Express',
+    img: '/images/Logo/express.svg',
+    alt: 'Express Logo',
   },
   {
     name: 'Tailwind CSS',
@@ -29,10 +45,7 @@ const TechStack = [
     img: 'images/Logo/logos_bootstrap.svg',
     alt: 'Bootstrap Logo',
   },
-  {
-    name: 'CSS',
-    img: 'images/Logo/vscode-icons_file-type-css.svg',
-  },
+
   {
     name: 'Git',
     img: 'images/Logo/logos_git-icon.svg',
