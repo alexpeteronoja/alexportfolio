@@ -29,9 +29,12 @@ function About() {
 
               <div className="text-center my-5">
                 <p>
-                  My name is Alex Peter Onoja, I crafts clean, responsive, and
-                  user-friendly websites. I design and build engaging digital
-                  experiences for the web.
+                  My name is Alex Peter Onoja, I am a Full-Stack Web Developer
+                  specializing in building clean, responsive, and user-friendly
+                  web applications. Experienced in developing modern interfaces
+                  and scalable backend systems using React, TypeScript, Node.js,
+                  and MongoDB. Passionate about delivering high-performance
+                  digital solutions and seamless user experiences.
                 </p>
 
                 <p className="my-4">

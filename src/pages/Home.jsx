@@ -44,9 +44,12 @@ function Home() {
                   <span className="text-purple-400">Alex Peter Onoja</span>
                 </div>
                 <div className="mb-5 ">
-                  A Web Developer who crafts clean, responsive, and
-                  user-friendly websites. I design and build engaging digital
-                  experiences for the web.
+                  Full-Stack Web Developer specializing in building clean,
+                  responsive, and user-friendly web applications. Experienced in
+                  developing modern interfaces and scalable backend systems
+                  using React, TypeScript, Node.js, and MongoDB. Passionate
+                  about delivering high-performance digital solutions and
+                  seamless user experiences.
                   <div className="flex justify-center md:justify-start mt-4 space-x-3.5">
                     <button
                       type="button"
