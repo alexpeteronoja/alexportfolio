@@ -1,11 +1,7 @@
 @import 'tailwindcss';
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    /* background-color: #eaf6f6; */
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -23,3 +19,15 @@ body {
         padding: 20px 43px 118px;
     }
 }
+
+/* Custom Utilities for Glow Effects */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glow-text {
+    text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+}

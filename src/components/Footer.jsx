@@ -1,59 +1,64 @@
 function Footer() {
   function getDate() {
     const date = new Date();
-    const year = date.getFullYear();
-    return year;
+    return date.getFullYear();
   }
+
   return (
-    <div className="bg-black text-white text-center p-3 ">
-      <div className="flex justify-center gap-x-4 my-3">
-        <div>
+    <footer className="bg-[#0a0a0a] text-gray-400 py-8 border-t border-white/5 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+        
+        {/* Social Icons */}
+        <div className="flex justify-center gap-8 mb-6">
           <a
             href="https://api.whatsapp.com/send?phone=+2348162513936&text=Hello.%20I%20need%20a%20Web%20Development%20Service.%20Got%20your%20contact%20from%20your%20portfolio"
             target="_blank"
+            rel="noreferrer"
             aria-label="WhatsApp"
-            className="hover:text-emerald-500"
+            className="text-gray-400 hover:text-emerald-400 transform hover:scale-110 hover:-translate-y-1 transition-all duration-300"
           >
-            <i class="fa-brands fa-whatsapp fa-xl"></i>
+            <i className="fa-brands fa-whatsapp fa-2xl drop-shadow-md"></i>
           </a>
-        </div>
 
-        <div>
           <a
             href="mailto:alexpeteronoja@gmail.com"
-            aria-label="Email"
-            className="hover:text-emerald-500"
             target="_blank"
+            rel="noreferrer"
+            aria-label="Email"
+            className="text-gray-400 hover:text-cyan-400 transform hover:scale-110 hover:-translate-y-1 transition-all duration-300"
           >
-            <i class="fas fa-envelope fa-xl"></i>
+            <i className="fas fa-envelope fa-2xl drop-shadow-md"></i>
           </a>
-        </div>
 
-        <div>
           <a
             href="https://www.linkedin.com/in/alex-peter-onoja/"
             target="_blank"
+            rel="noreferrer"
             aria-label="LinkedIn"
-            className="hover:text-emerald-500"
+            className="text-gray-400 hover:text-purple-400 transform hover:scale-110 hover:-translate-y-1 transition-all duration-300"
           >
-            <i class="fa-brands fa-linkedin fa-xl"></i>
+            <i className="fa-brands fa-linkedin fa-2xl drop-shadow-md"></i>
           </a>
-        </div>
 
-        <div>
           <a
             href="tel:+2348162513936"
-            aria-label="Phone"
             target="_blank"
-            className="hover:text-emerald-500"
+            rel="noreferrer"
+            aria-label="Phone"
+            className="text-gray-400 hover:text-emerald-400 transform hover:scale-110 hover:-translate-y-1 transition-all duration-300"
           >
-            <i class="fas fa-phone fa-xl"></i>
+            <i className="fas fa-phone fa-2xl drop-shadow-md"></i>
           </a>
         </div>
-      </div>
 
-      <div>© Copyright {getDate()}, All Rights Reserved</div>
-    </div>
+        {/* Copyright */}
+        <div className="text-sm tracking-wide text-gray-500">
+          <p>
+            &copy; {getDate()} <span className="text-white font-medium">Alex Peter Onoja</span>. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
   );
 }
 
