@@ -1,5 +1,21 @@
 const ProjectData = [
   {
+    title: 'Logistics Tracking Management System',
+    img: '/images/Screenshot 2026-07-14 101208.png',
+    description:
+      'Developed a full-stack logistics platform with DHL, FedEx, and custom tracking support. Features automated carrier synchronization, an admin dashboard for shipment management, and a public parcel tracking page where customers can track shipments using their generated tracking number.',
+    previewURL: 'https://log-logistics.vercel.app/',
+    githubURL: 'https://github.com/alexpeteronoja/log-logistics',
+  },
+  {
+    title: 'Shopping Store with Cart Functionalities',
+    img: '/images/ecommerce-store.png',
+    description:
+      'Developed a scalable, responsive React-based e-commerce store with dynamic API integration, efficient state management, and seamless cart functionalities including add, remove, and quantity updates.',
+    previewURL: 'https://shopping-site-green-eight.vercel.app',
+    githubURL: 'https://github.com/alexpeteronoja/shopping-site',
+  },
+  {
     title: 'Shopping Store with Cart Functionalities',
     img: '/images/ecommerce-store.png',
     description:
